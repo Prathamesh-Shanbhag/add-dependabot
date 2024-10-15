@@ -120,3 +120,8 @@ Developed by [Prathamesh Shanbhag](https://www.prathamesh-shanbhag.com/).
 
 1. **Command-Line Flags Section**: Explained the options for the mode (`local` or `action`) and the intervals (`daily`, `weekly`, `monthly`).
 2. **Example with Flags**: Provided an example of how to use the command with flags to clarify usage.
+
+## Codebase
+
+1. [NPM](https://www.npmjs.com/package/add-dependabot).
+2. [Github](https://github.com/Prathamesh-Shanbhag/add-dependabot).
