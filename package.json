@@ -1,10 +1,17 @@
 {
-  "name": "add-dependabot",
+  "name": "@prathamesh-shanbhag/add-dependabot",
   "version": "1.3.5",
   "description": "A CLI tool to add Dependabot configuration once dependencies are present.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prathamesh-Shanbhag/add-dependabot.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "bin": {
-    "add-dependabot": "index.js"
+    "add-dependabot": "./index.js"
   },
   "scripts": {
     "postinstall": "node index.js"

@@ -18,9 +18,6 @@ jobs:
           node-version: 18
           registry-url: https://registry.npmjs.org/
 
-      - name: Configure npm for GitHub Packages
-        run: npm config set //npm.pkg.github.com/:_authToken=${{ secrets.NPM_PACKAGE_PUBLISH }}
-
       - name: Publish to npm
         run: npm publish --access public
         env:
