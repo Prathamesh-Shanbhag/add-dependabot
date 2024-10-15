@@ -1,0 +1,5 @@
+# Exclude files/folders from being published to npm
+local-only/
+dev-notes.txt
+.github/
+.git/
