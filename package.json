@@ -4,7 +4,7 @@
   "description": "A CLI tool to add Dependabot configuration once dependencies are present.",
   "main": "index.js",
   "bin": {
-    "add-dependabot": "./index.js"
+    "add-dependabot": "index.js"
   },
   "scripts": {
     "postinstall": "node index.js"
