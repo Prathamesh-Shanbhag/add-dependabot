@@ -1,6 +1,6 @@
 {
   "name": "add-dependabot",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "A CLI tool to add Dependabot configuration once dependencies are present.",
   "main": "index.js",
   "bin": {
